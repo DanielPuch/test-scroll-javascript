@@ -18,14 +18,12 @@
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
 				slidesNavigation: true,
-				sectionsColor: ['red', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'] ,
+				sectionsColor: ['#ffab00', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'] ,
 				loopBottom: true,
 				afterRender: function () {
-            setInterval(function () {
-                $.fn.fullpage.moveSlideRight();
-            }, 7000);
-        }
-				
+            		setInterval(function () {
+             		$.fn.fullpage.moveSlideRight();
+           			}, 7000); }
 			});
 		});
 	</script>
@@ -33,13 +31,18 @@
 	<body>
     <div id="fullpage">
       <div class="section active" id="section0">
-        <div class="slide active"><img src="images/FrontPageSlide-Brooklyn.jpg" alt="slide_1" width="100%"/> </div>
-        <div class="slide"><img src="images/FrontPageSlide-Prairie.jpg" alt="Slide_2" width="100%"/></div>
-        <div class="slide">
-          <h1>And text</h1>
+        <div class="slide active slide1">
+          <h2> Welcome to </h2>
+          <h1> <strong> moWse Design Studio </strong> </h1>
         </div>
-        <div class="slide">
-          <h1>And more text</h1>
+        <div class="slide slide2">
+          <h1> <strong>Inspiration</strong></h1>
+        </div>
+        <div class="slide slide3">
+          <h1> <strong>Illustrations</strong></h1>
+        </div>
+        <div class="slide slide4">
+          <h1><strong>Graphic Design</strong></h1>
         </div>
       </div>
       <div class="section" id="section1">

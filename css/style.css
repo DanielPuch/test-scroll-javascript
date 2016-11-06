@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+	font-size: 6em;
+}
+h2 {
+	font-size: 3em;
+}
+/* Slide images */
+
+.slide1 {
+	background-image: url(../images/FrontPageSlide-Brooklyn.jpg);
+	background-size: cover;
+}
+
+.slide2 {
+	background-image: url(../images/FrontPageSlide-Prairie.jpg);
+	background-size: cover;
+}
+
+.slide3 {background-image: url(../images/ZaloArt.jpg);
+background-size: cover;}
+
+.slide4 {
+	background-image: url(../images/GraphicDesignerWorking.jpg);
+	background-size: cover;
+}
