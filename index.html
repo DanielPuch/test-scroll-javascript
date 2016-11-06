@@ -17,7 +17,15 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				sectionsColor: ['red', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'] 
+				slidesNavigation: true,
+				sectionsColor: ['red', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'] ,
+				loopBottom: true,
+				afterRender: function () {
+            setInterval(function () {
+                $.fn.fullpage.moveSlideRight();
+            }, 7000);
+        }
+				
 			});
 		});
 	</script>
