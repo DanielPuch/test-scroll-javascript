@@ -1,5 +1,3 @@
-<h1>Just some Javascript tests </h1> 
+# Just some Javascript tests
 
-<p> nothing important
-
-:-P </p>
+## nothing important :-P
