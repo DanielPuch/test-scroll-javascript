@@ -26,3 +26,10 @@ background-size: cover;}
 	background-image: url(../images/GraphicDesignerWorking.jpg);
 	background-size: cover;
 }
+
+/*Styles for Text Effects*/
+
+.white-shadow {
+	color: whitesmoke;
+	text-shadow: 5px 5px 20px #333333;
+}
